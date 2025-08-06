@@ -1,25 +1,44 @@
-import React from "react";
-import { Roboto } from "next/font/google";
+import localFont from "next/font/local";
 import "./globals.css";
 
-const font = Roboto ({
-  variable: "--font",
-  subsets: ["latin"],
-});
-
 export const metadata = {
-    title: "<escreva o nome para aparecer na aba do navegador>",
+    title: "Loja de Eletrônicos",
+    description: "Revisão de front-end",
     icons: {
-    //icon: "/icons/favicon.ico",
-  },
-    description: "Projeto pra mostrar tudo que eu sei",
-
+        icon: [
+            {
+                url: "/icons/favicon.ico",
+                sizes: "any",
+            }
+        ],
+        shortcut: "/icons/favicon.ico",
+        apple: "/icons/favicon.ico",
+    },
 };
+
+const loraFonts = localFont({
+    src: [
+        {
+            path: "../../public/fonts/Lora-Regular.ttf",
+            weight: "400",
+            style: "normal",
+        },
+        {
+            path: "../../public/fonts/Lora-Bold.ttf",
+            weight: "700",
+            style: "normal",
+        },
+    ],
+    variable: "--font-lora",
+    display: "swap",
+});
 
 export default function RootLayout({ children }) {
     return (
-        <html>
-            <body className={font.variable}>{children}</body>
+        <html lang="pt-BR" className={loraFonts.variable}>
+            <body className={loraFonts.className}>
+                <main>{children}</main>
+            </body>
         </html>
     );
 }

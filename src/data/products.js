@@ -1,10 +1,10 @@
-export const productsData = [
+export const productData = [
     {
       id: 1,
       title: 'iPhone 15 Pro Max 256GB',
       price: 'R$ 8.999,00',
       description: 'O mais avançado iPhone já criado, com chip A17 Pro...',
-      image: '/iphone15.jpg',
+      image: '/images/iphone15.jpg',
       rating: {
         stars: 5,
         count: 4.8,
@@ -17,7 +17,7 @@ export const productsData = [
       title: 'Samsung Galaxy S24 Ultra 512GB',
       price: 'R$ 7.499,00',
       description: 'Galaxy AI revolucionário, S Pen integrada...',
-      image: '/samsung-galaxy.jpg',
+      image: '/images/samsung-galaxy.jpg',
       rating: {
         stars: 5,
         count: 4.7,
@@ -30,7 +30,7 @@ export const productsData = [
         title: 'MacBook Pro 14" M3 Pro 18GB',
         price: 'R$ 15.999,00',
         description: 'Performance profissional com chip M3 Pro, tela Liquid Retina XDR e bateria de longa duração.',
-        image: '/macbook-pro.jpg',
+        image: '/images/macbook-pro.jpg',
         rating: {
             stars: 5,
             count: 4.9,
@@ -43,7 +43,7 @@ export const productsData = [
       title: 'Dell XPS 13 Intel i7 16GB SSD 512GB',
       price: 'R$ 6.799,00',
       description: 'Ultrabook premium com design ultrafino, tela InfinityEdge e performance excepcional.',
-      image: '/dell-xps.jpg',
+      image: '/images/dell-xps.jpg',
       rating: {
         stars: 5,
         count: 4.6,
@@ -56,7 +56,7 @@ export const productsData = [
       title: 'iPad Pro 12.9" M2 WiFi 128GB',
       price: 'R$ 7.299,00',
       description: 'O tablet mais poderoso do mundo com chip M2, tela Liquid Retina XDR e suporte ao Apple Pencil.',
-      image: '/ipad-12.jpg',
+      image: '/images/ipad-12.jpg',
       rating: {
         stars: 5,
         count: 4.8,
@@ -69,7 +69,7 @@ export const productsData = [
       title: 'Samsung Galaxy Tab S9+ 256GB',
       price: 'R$ 4.999,00',
       description: 'Tablet premium Android com S Pen incluída, tela Dynamic AMOLED 2X e resistência à água.',
-      image: '/sansungS9.jpg',
+      image: '/images/sansungS9.jpg',
       rating: {
         stars: 5,
         count: 4.5,
@@ -82,7 +82,7 @@ export const productsData = [
       title: 'Apple AirPods Pro 2ª Geração',
       price: 'R$ 2.399,00',
       description: 'Fones sem fio com cancelamento ativo de ruído, áudio espacial e até 30h de bateria.',
-      image: '/images/apple-watch.jpg',
+      image: '/images/AirPods.jpg',
       rating: {
         stars: 5,
         count: 4.7,
@@ -95,7 +95,7 @@ export const productsData = [
       title: 'Apple Watch Series 9 GPS 45mm',
       price: 'R$ 4.299,00',
       description: 'Smartwatch mais avançado com chip S9, Double Tap, monitoramento de saúde completo',
-      image: '/images/samsung-watch.jpg',
+      image: '/images/AppleWatchSeries.jpg',
       rating: {
         stars: 5,
         count: 4.6,
@@ -108,7 +108,7 @@ export const productsData = [
       title: 'Carregador Sem Fio MagSafe 15W',
       price: 'R$ 399,00',
       description: 'arregamento sem fio rápido e seguro para iPhone, alinhamento magnético perfeito.',
-      image: '/images/sony-headphones.jpg',
+      image: '/images/CarregadorSemFioMagSafe.jpg',
       rating: {
         stars: 5,
         count: 4.4,
@@ -121,7 +121,7 @@ export const productsData = [
       title: 'Xiaomi 13 Pro 256GB Leica',
       price: 'R$ 3.999,00',
       description: 'Smartphone premium com câmeras Leica, carregamento ultra-rápido 120W e tela AMOLED',
-      image: '/images/bose-earbuds.jpg',
+      image: '/images/xaiomipro.jpg',
       rating: {
         stars: 5,
         count: 4.5,
